@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 960px;
+    margin: 50px;
+}
+
+#container div {
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
